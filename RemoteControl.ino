@@ -38,6 +38,7 @@ void RC5_Button(){
     }
   }
   state = 0;
+  digitalWrite(LED,LOW);
   delay(500);
 }
 
